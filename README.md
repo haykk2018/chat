@@ -7,6 +7,12 @@
 еще более важно, это ПО знает, как между собой общаться, то есть
 обмениваться битами.
 
+Socket chatSocket = new Socket("196.164.1.103","5000"); ip and TSP port of server
+
+port - it's simple number with which a specific program is recognized
+on the server
+
+
 ![websocketlifecycle_30624_l](https://user-images.githubusercontent.com/41595475/201461910-9cb2bb7b-0dfc-42b2-b85f-71002be0c7a1.png)
 
 >web socket is full duplex conneciton, it means
