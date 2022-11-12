@@ -59,7 +59,7 @@ public class VerySimpleChatServer {
 
     public void tellEveryone(String message) {
         Iterator it = clientOutputStreams.iterator();
-        message += " (response from SERVER)";
+        message = "Hello client. I got your message:" + message + " (response from SERVER)";
         while (it.hasNext()) {
             try {
                 System.out.println(message);
